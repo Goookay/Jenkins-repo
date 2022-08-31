@@ -12,6 +12,7 @@ pipeline {
             }
                 steps{
                      sh 'ls'
+                     sh ' cp Hello.cpp  / '
                      sh 'apt-get update'
                      sh 'apt install -y build-essential'
                      sh 'apt install -y git'

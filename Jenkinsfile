@@ -29,6 +29,7 @@ pipeline {
                      sh 'hello'
                     // sh ' cd / && ls'    
                    //  sh 'ls'
+     
                      
                 }
                 }

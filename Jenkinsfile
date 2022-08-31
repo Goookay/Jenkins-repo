@@ -6,7 +6,7 @@ pipeline {
             agent {
                 docker {
                     image 'ubuntu:focal'
-                    args '--user root'
+                    args '--user root --name fubuntu'
                     reuseNode true
                 }
             }
